@@ -1,3 +1,3 @@
-![](img/Chordify.png)![](img/tagtraum_industries.jpg)![](img/AudioLabs.png)
+![](img/Chordify.png | width=100)![](img/tagtraum_industries.jpg | width=100)![](img/AudioLabs.png | width=100)
 
 # Chordify TapCorrect Dataset
