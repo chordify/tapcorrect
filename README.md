@@ -20,8 +20,13 @@ The folder `python` contains our implementation of the automatic trap correction
 ## TapCorrect Dataset
 The folder `dataset` contains the original taps, the automatically corrected taps, as well as the fully corrected taps, as well as metadata and YouTube links to all 101 music recordings used in the paper. Annotations are provided in both csv as well as jams format.
 In the `csv` subfolder, you find one folder per item. Each folder then contains four csv-files:
+
 * `00-meta.csv` conatining information about artist, title, track duration, and YouTube links.
 * `01-original_taps.csv` containing a list of taps as created by the human annotator. Taps are given in the form `timestamp,"beat_count"`.
 * `02-automatically_corrected_taps.csv` containing a list of taps automatically corrected by our proposed correction procedure.
 * `03-fully_corrected_taps.csv` containing a list of manually corrected taps.
-The `jams` subfolder contains 101 jams files ((https://github.com/marl/jams)[Jams]). Each file contains the meta data as well as the three annotations listed above.
+
+The `jams` subfolder contains 101 jams files ((https://github.com/marl/jams)[![Jams]). Each file contains the meta data as well as the three annotations listed above.
+
+## Listening Experiment
+The folder `listening_experiment` contains a spreadsheed with the detailed responses of our listening experiment's participants.
