@@ -26,7 +26,7 @@ In the `csv` subfolder, you find one folder per item. Each folder then contains 
 * `02-automatically_corrected_taps.csv` containing a list of taps automatically corrected by our proposed correction procedure.
 * `03-fully_corrected_taps.csv` containing a list of manually corrected taps.
 
-The `jams` subfolder contains 101 jams files ((https://github.com/marl/jams)[![Jams]). Each file contains the meta data as well as the three annotations listed above.
+The `jams` subfolder contains 101 jams files (https://github.com/marl/jams). Each file contains the meta data as well as the three annotations listed above.
 
 ## Listening Experiment
 The folder `listening_experiment` contains a spreadsheed with the detailed responses of our listening experiment's participants.
