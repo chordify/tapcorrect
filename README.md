@@ -1,4 +1,4 @@
-![](img/Chordify.png) ![](img/tagtraum_industries.png) ![](img/AudioLabs.png)
+![](img/Chordify.png)  ![](img/tagtraum_industries.png)  ![](img/AudioLabs.png)
 
 # Chordify TapCorrect
 This repository contains supplemental material for the paper "Towards Automatically Correcting Tapped Beat Annotations for Music Recordings" by Jonathan Driedger, Hendrik Schreiber, W. Bas de Haas, and Meinard Müller, presented at ISMIR 2019 in Delft, the Netherlands.
