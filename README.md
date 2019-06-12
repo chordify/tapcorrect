@@ -18,7 +18,7 @@ In the `csv` subfolder, you find one folder per item. Each folder then contains 
 * `00-meta.csv` conatining information about artist, title, track duration, and YouTube links.
 * `01-original_taps.csv` containing a list of taps as created by the human annotator using Sonic Visualizer (https://www.sonicvisualiser.org/).
 * `02-automatically_corrected_taps.csv` containing a list of taps created by automatically correcting the original taps using our proposed TapCorrect procedure.
-* `03-fully_corrected_taps.csv` containing a list taps that were created by manually correcting the automatically corrected taps using Sonic Visualizer.
+* `03-fully_corrected_taps.csv` containing a list of taps created by manually correcting the automatically corrected taps using Sonic Visualizer.
 
 All taps are given in the form `timestamp,"beat_count"`.
 
