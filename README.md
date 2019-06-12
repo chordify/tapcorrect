@@ -30,7 +30,7 @@ A common method to create beat annotations for music recordings is to let a huma
 The folder `python` contains our implementation of the automatic tap correction procedure as described in the paper. The file `__main__.py` includes an example of how to execute the precedure.
 
 ## TapCorrect Dataset
-The folder `dataset` contains the original taps, the automatically corrected taps, as well as the fully corrected taps, as well as metadata and YouTube links to all 101 music recordings used in the paper. Annotations are provided in both csv as well as jams format.
+The folder `dataset` contains the original taps, the automatically corrected taps, and the fully corrected taps, as well as metadata and YouTube links to all 101 music recordings used in the paper. Furthermore, downbeats were annotated for all recordings. Annotations are provided in both csv as well as jams format.
 In the `csv` subfolder, you find one folder per item. Each folder then contains four csv-files:
 
 * `00-meta.csv` containing information about artist, title, track duration, and YouTube link.
