@@ -23,4 +23,4 @@ In the `csv` subfolder, you find one folder per item. Each folder then contains 
 The `jams` subfolder contains 101 jams files (https://github.com/marl/jams). Each file contains the meta data as well as the three annotations listed above.
 
 ## Listening Experiment
-The folder `listening_experiment` contains a spreadsheed with the detailed responses of our listening experiment's participants.
+The folder `listening_experiment` contains a spreadsheet with the detailed responses of our listening experiment's participants.
