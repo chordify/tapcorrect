@@ -16,11 +16,13 @@ The folder `dataset` contains the original taps, the automatically corrected tap
 In the `csv` subfolder, you find one folder per item. Each folder then contains four csv-files:
 
 * `00-meta.csv` conatining information about artist, title, track duration, and YouTube links.
-* `01-original_taps.csv` containing a list of taps as created by the human annotator using Sonic Visualizer (https://www.sonicvisualiser.org/). Taps are given in the form `timestamp,"beat_count"`.
-* `02-automatically_corrected_taps.csv` containing a list of taps automatically corrected by our proposed correction procedure.
-* `03-fully_corrected_taps.csv` containing a list of manually corrected taps.
+* `01-original_taps.csv` containing a list of taps as created by the human annotator using Sonic Visualizer (https://www.sonicvisualiser.org/).
+* `02-automatically_corrected_taps.csv` containing a list of taps created by automatically correcting the original taps using our proposed TapCorrect procedure.
+* `03-fully_corrected_taps.csv` containing a list of taps created by manually correcting the automatically corrected taps using Sonic Visualizer.
+
+All taps are given in the form `timestamp,"beat_count"`.
 
 The `jams` subfolder contains 101 jams files (https://github.com/marl/jams). Each file contains the meta data as well as the three annotations listed above.
 
 ## Listening Experiment
-The folder `listening_experiment` contains a spreadsheed with the detailed responses of our listening experiment's participants.
+The folder `listening_experiment` contains a spreadsheet with the detailed responses of our listening experiment's participants.
