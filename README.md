@@ -33,7 +33,7 @@ The folder `python` contains our implementation of the automatic tap correction 
 The folder `dataset` contains the original taps, the automatically corrected taps, as well as the fully corrected taps, as well as metadata and YouTube links to all 101 music recordings used in the paper. Annotations are provided in both csv as well as jams format.
 In the `csv` subfolder, you find one folder per item. Each folder then contains four csv-files:
 
-* `00-meta.csv` conatining information about artist, title, track duration, and YouTube links.
+* `00-meta.csv` containing information about artist, title, track duration, and YouTube link.
 * `01-original_taps.csv` containing a list of taps as created by the human annotator using [Sonic Visualizer](https://www.sonicvisualiser.org/).
 * `02-automatically_corrected_taps.csv` containing a list of taps created by automatically correcting the original taps using our proposed TapCorrect procedure.
 * `03-fully_corrected_taps.csv` containing a list of taps created by manually correcting the automatically corrected taps using Sonic Visualizer.
