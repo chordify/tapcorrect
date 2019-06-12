@@ -44,3 +44,6 @@ The `jams` subfolder contains 101 [JAMS](https://github.com/marl/jams) files. Ea
 
 ## Listening Experiment
 The folder `listening_experiment` contains a spreadsheet with the detailed responses of our listening experiment's participants.
+
+# Contact
+In case you have any questions or feedback, please write to jonathan@chordify.net
