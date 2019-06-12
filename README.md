@@ -45,5 +45,9 @@ The `jams` subfolder contains 101 [JAMS](https://github.com/marl/jams) files. Ea
 ## Listening Experiment
 The folder `listening_experiment` contains a spreadsheet with the detailed responses of our listening experiment's participants.
 
+## License
+* The TapCorrect dataset is published under a [Creative Commons Attribution-ShareAlike 4.0 International](dataset/LICENSE.md) license.
+* The sourcecode for the TapCorrect procedure is published under a [GNU Lesser General Public License V3.0](python/LICENSE.md) license.
+
 ## Contact
 In case you have any questions or feedback, please write to jonathan@chordify.net
