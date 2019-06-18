@@ -5,6 +5,7 @@
 # Chordify TapCorrect
 This repository contains supplemental material for the paper "Towards Automatically Correcting Tapped Beat Annotations for Music Recordings" by Jonathan Driedger, Hendrik Schreiber, W. Bas de Haas, and Meinard Müller, presented at ISMIR 2019 in Delft, the Netherlands.
 
+## Paper
 [[PDF]](resource/2019_DriedgerSHM_BeatAnnotationCorrection_ISMIR.pdf), [[bibtex]](resource/2019_DriedgerSHM_BeatAnnotationCorrection_ISMIR.bib)
 
 When you use the TapCorrect procedure or the dataset, please cite
