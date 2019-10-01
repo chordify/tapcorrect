@@ -19,7 +19,7 @@ When you use the TapCorrect procedure or the dataset, please cite
   booktitle = {Proceedings of the 20th International Society for Music Information
                Retrieval Conference ({ISMIR})},
   year      = {2019},
-  address   = {Delft, the Netherlands},
+  address   = {Delft, The Netherlands},
   month     = {November}
 }
 ```
