@@ -126,6 +126,11 @@ def compute_deviation_matrix(beat_activation, beat_times, fs_act, tolerance):
     for i, t in enumerate(beat_times):
         segment_act = np.zeros(2 * tolerance + 1)
         ind_act = int(np.round(t * fs_act))
+
+        if ind_act < 0 or ind_act >= beat_activation.shape[0]:
+            print("WARNING: Tap at %.02fs is outside of the audio's duration" % t)
+            continue
+
         ind_act_start = np.max((0, ind_act - tolerance))
         ind_act_end = np.min((beat_activation.shape[0], ind_act + tolerance + 1))
         ind_segment_start = tolerance - (ind_act - ind_act_start)
