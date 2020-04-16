@@ -11,9 +11,7 @@ setup(name='tapcorrect',
           'madmom',
           'librosa',
           'matplotlib',
-          'numpy',
-          'csv',
-          'pickle'
+          'numpy'
       ],
       include_package_data=True,
       zip_safe=False)

@@ -1,4 +1,4 @@
-from madmom.features.beats import RNNDownBeatProcessor
+from madmom.features.downbeats import RNNDownBeatProcessor
 import librosa
 import numpy as np
 import pickle
