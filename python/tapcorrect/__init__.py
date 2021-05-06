@@ -1,3 +1,3 @@
-import activation
-import readwrite
-import tapcorrection
+from tapcorrect import activation
+from tapcorrect import readwrite
+from tapcorrect import tapcorrection
