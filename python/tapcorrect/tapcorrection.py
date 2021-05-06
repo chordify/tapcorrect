@@ -1,5 +1,5 @@
-import readwrite
-import activation
+from tapcorrect import readwrite
+from tapcorrect import activation
 import numpy as np
 
 def correct_taps(path_taps, path_audio,
@@ -45,7 +45,7 @@ def correct_taps(path_taps, path_audio,
         readwrite.write_beat_annotation(counts_taps, final_beat_times, path_out)
 
     if visualize:
-        import visualization as vis
+        from tapcorrect import visualization as vis
         D_post, list_iois_post = compute_deviation_matrix(act, final_beat_times, fs_act, max_deviation)
 
         vis.visualize_tapcorrection(D_pre, D_post, fs_act,

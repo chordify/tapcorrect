@@ -1,4 +1,4 @@
-import tapcorrection
+from tapcorrect import tapcorrection
 
 if __name__ == '__main__':
 
